@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@layer utilities {
+    .animation-delay-2000 {
+      animation-delay: 0.5s;
+    }
+    .animation-delay-4000 {
+      animation-delay: 0.5s;
+    }
+  };
+  .App {
+    text-align: center;
+  }
+  
+
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+

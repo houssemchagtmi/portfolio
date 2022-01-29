@@ -1,0 +1,6 @@
+img.react{
+    animation: spin 6s linear infinite;
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg) ;}
+}
