@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../Components/Header';
 import ResponsiveNavbar from '../Components/Responsive';
 
 const Projects = () => {
